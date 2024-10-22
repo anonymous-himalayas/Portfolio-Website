@@ -33,10 +33,35 @@
     <section id="home">
         <div class="left">
             <div class="content">
-                <h2>Hi, I'm <span class="stroke-text">Joe Doe</span></h2>
-                <p>Web Designer & Developer</p>
-                <p>I am a web designer and developer. I have a passion for web design and love to create for web and
-                    mobile devices.</p>
+                <h2>Hi, I'm <span class="stroke-text">Himal Malik</span></h2>
+                <div class="typing">
+                    <span class="text pre">I am </span>
+                    <span class="text first-text"></span>
+                </div>
+
+                <script> 
+                    const text = document.querySelector(".first-text");
+
+                    const textLoad = () => {
+                        setTimout(() => {
+                            text.textContent = "a Data Scientist";
+                        }, 0);
+                        setTimout(() => {
+                            text.textContent = "a Data Analyst";
+                        }, 4000);
+                        setTimout(() => {
+                            text.textContent = "an AI Enthusiast";
+                        }, 8000);
+                        setTimout(() => {
+                            text.textContent = "a gamer ;)";
+                        }, 12000);
+                    }
+
+                    textLoad();
+                </script>
+
+                <p>I am a Data Scientist. I have a passion for learning and creating unique applications 
+                with the power of data.</p>
                 <a href="#" class="btn">Hire Me</a>
             </div>
         </div>
