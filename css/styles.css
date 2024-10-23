@@ -150,44 +150,45 @@ nav {
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
 }
 
-/* .typing {
 
-} */
+.typing {
+  overflow: hidden;
+}
 
-  .typing .text {
-  position: relative;
+.typing .pre {
   font-size: 30px;
-  font-weight: 700;
-  color: lightblue;
-}
-
-.typing .text.pre {
-  color: lightblue;
+  font-weight: 500;
 }
 
 
-.text.first-text:before {
-  content: "";
+.typing .first {
+  font-size: 30px;
+  font-weight: 800;
+  color: lightblue;
+  position: relative;
+}
+
+.typing .first::before {
   position: absolute;
-  top: 0;
-  left: 0;
+  content: "";
   height: 100%;
   width: 100%;
   background-color: #141414;
-  border-left: 2px solid lightblue;
+  top: 0;
+  left: 0;
+  border-left: 3px solid lightblue;
   animation: animate 4s steps(12) infinite;
 }
 
-
 @keyframes animate {
-  40%, 60%{
-    left: 100%;
+  40%, 60% {
+    left: calc(100% + 4px);
   }
-  100%{
-    left: 0%;
+
+  100% {
+    left: 0;
   }
 }
-
 
 .rotate-45 {
   transform: rotate(45deg);
