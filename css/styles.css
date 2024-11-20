@@ -277,6 +277,15 @@ nav {
   padding: 10px 20px;
 }
 
+/* Skills */
+
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+
 /* Contact */
 #contact {
   padding: 60px 0px;
