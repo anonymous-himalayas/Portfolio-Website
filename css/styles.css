@@ -285,6 +285,13 @@ nav {
   gap: 30px;
 }
 
+.python-svg, .js-svg, .r-svg, .java-svg, .cpp-svg, .pandas-svg, .np-svg, .docker-svg, .sql-svg, .sb-svg{
+  width: 100px;
+  height: 100px;
+}
+
+
+
 
 /* Contact */
 #contact {
