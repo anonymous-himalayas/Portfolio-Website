@@ -281,6 +281,8 @@ nav {
 
 .skills-list {
   display: grid;
+  justify-items: center;
+  justify-content: center;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
 }
@@ -308,7 +310,7 @@ nav {
 }
 
 /* Contact */
-
+/* 
 #contact {
   position: relative;
 }
@@ -376,12 +378,22 @@ textarea {
 
 .form-group button:hover {
   background-color: var(--dark-300);
-}
+} */
+
+
 
 footer {
   display: flex;
   justify-content: center;
   padding: 10px;
+}
+
+.LIN, .email, .name {
+  color: lightblue;
+}
+
+.email, .LIN {
+  font-size: 30px;
 }
 
 /* Media Queries */
