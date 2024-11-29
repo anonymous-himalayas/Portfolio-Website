@@ -49,7 +49,7 @@ h2 {
 }
 
 p {
-  font-size: 16px;
+  font-size: 25px;
 }
 
 .btn {
@@ -278,6 +278,11 @@ nav {
 }
 
 /* Skills */
+.skill {
+  justify-content: center;
+  justify-items: center;
+}
+
 
 .skills-list {
   display: grid;
