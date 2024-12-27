@@ -1,4 +1,4 @@
- 
+
 
 
 let typingText = document.querySelector(".first");
@@ -13,9 +13,9 @@ let typeText = () => {
   setTimeout(() => {
     typingText.textContent = "an AI Enthusiast";
   }, 8000);
-    setTimeout(() => {
-        typingText.textContent = "a gamer ;)";
-    }, 12000);
+  setTimeout(() => {
+    typingText.textContent = "a gamer ;)";
+  }, 12000);
 };
 
 typeText();
