@@ -1,11 +1,10 @@
-/* Clearing default styles */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-/* Color :  Adobe Color, coolors, colorspace, colorhunt */
-/* Fonts : Google Fonts, CDN fonts  */
+
 
 /* Css Variables */
 :root {
@@ -49,7 +48,7 @@ a {
   transition: all 0.3s ease-in;
 }
 
-/* Pseudo classes */
+/* General consts */
 a:hover {
   color: var(--dark-500);
 }
@@ -94,7 +93,7 @@ p {
 }
 
 .header {
-  margin: 0 auto; /* Making the header center */
+  margin: 0 auto; 
   width: 800px;
   display: flex;
   flex-direction: column;
@@ -398,7 +397,7 @@ nav {
   filter: drop-shadow(0 0 8px rgba(56, 189, 248, 0.3));
 }
 
-/* Add skill names below icons */
+
 .skill span {
   font-size: 1rem;
   font-weight: 500;
@@ -626,7 +625,7 @@ footer {
   }
 }
 
-/* General mobile adjustments */
+/* Mobile */
 @media (max-width: 768px) {
   section {
     padding: 40px 20px;
@@ -641,7 +640,7 @@ footer {
     padding: 0 20px;
   }
 
-  /* Projects adjustments */
+
   .projects-list {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -652,7 +651,6 @@ footer {
     max-width: 400px;
   }
 
-  /* Contact section adjustments */
   .contact-container {
     grid-template-columns: 1fr;
     padding: 20px;
@@ -670,7 +668,7 @@ footer {
     padding: 12px;
   }
 
-  /* Navigation adjustments */
+
   nav {
     padding: 0 20px;
   }
@@ -679,7 +677,7 @@ footer {
     font-size: 24px;
   }
 
-  /* Skills adjustments */
+
   .skills-list {
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
@@ -691,7 +689,7 @@ footer {
   }
 }
 
-/* Extra small devices */
+
 @media (max-width: 480px) {
   .header h1 {
     font-size: 28px;
@@ -727,7 +725,7 @@ footer {
   }
 }
 
-/* Fix for navigation on mobile */
+
 @media (max-width: 720px) {
   .nav-menu {
     position: fixed;
@@ -759,33 +757,33 @@ footer {
   }
 }
 
-/* Ensure images are responsive */
+
 img {
   max-width: 100%;
   height: auto;
 }
 
-/* Fix for form elements on mobile */
+
 input, 
 textarea, 
 button {
-  font-size: 16px !important; /* Prevents zoom on mobile */
+  font-size: 16px; 
   max-width: 100%;
 }
 
-/* Contact section mobile adjustments */
+
 @media (max-width: 768px) {
   .contact-container {
     grid-template-columns: 1fr;
     padding: 30px;
   }
 
-  /* Hide the form on mobile */
+
   .contact-form {
     display: none;
   }
 
-  /* Enhance the contact info section */
+
   .contact-info {
     width: 100%;
     align-items: center;
@@ -807,7 +805,7 @@ button {
     font-size: 24px;
   }
 
-  /* Add some breathing room */
+  /* MOREEEEEEE */
   .contact-info h2 {
     margin-bottom: 16px;
   }
@@ -818,7 +816,7 @@ button {
   }
 }
 
-/* Extra small devices */
+
 @media (max-width: 480px) {
   .contact-container {
     padding: 20px;
