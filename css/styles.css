@@ -772,3 +772,64 @@ button {
   font-size: 16px !important; /* Prevents zoom on mobile */
   max-width: 100%;
 }
+
+/* Contact section mobile adjustments */
+@media (max-width: 768px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+    padding: 30px;
+  }
+
+  /* Hide the form on mobile */
+  .contact-form {
+    display: none;
+  }
+
+  /* Enhance the contact info section */
+  .contact-info {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .contact-links {
+    width: 100%;
+    gap: 16px;
+  }
+
+  .contact-link {
+    padding: 20px;
+    font-size: 18px;
+    justify-content: center;
+  }
+
+  .contact-link i {
+    font-size: 24px;
+  }
+
+  /* Add some breathing room */
+  .contact-info h2 {
+    margin-bottom: 16px;
+  }
+
+  .contact-info p {
+    margin-bottom: 24px;
+    max-width: 400px;
+  }
+}
+
+/* Extra small devices */
+@media (max-width: 480px) {
+  .contact-container {
+    padding: 20px;
+  }
+
+  .contact-link {
+    padding: 16px;
+    font-size: 16px;
+  }
+
+  .contact-link i {
+    font-size: 20px;
+  }
+}
